@@ -25,6 +25,7 @@ public class Main {
 
         } catch (Exception e) {
             System.out.println("An unknown error occurred: " + e.getMessage());
+            System.exit(1);
         }
     }
 
